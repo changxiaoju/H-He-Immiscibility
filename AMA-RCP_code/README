@@ -1,0 +1,4 @@
+First, a xyz tracjectory is needed. The format should be like eg.xyz;
+Then, make the necessary changes to both scripts (paths, filenames, abundances, etc.);
+python 00.get_Pcond_from_xyz_traj.py to get Pcond results;
+python 01.re-weight_Pcond_get_x1_x2.py to re-weigt Pcond results.
